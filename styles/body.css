@@ -1,0 +1,38 @@
+.big-container {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	margin-top: 7%;
+}
+
+.container1 {
+	text-align: center;
+	background-color: white;
+	width: 40%;
+	height: 800px;
+}
+.container2 {
+	/* text-align: center; */
+	background-color: rgb(185, 70, 70);
+	width: 40%;
+	height: 800px;
+}
+
+#first-image {
+	text-align: center;	
+	width: 60%;
+	border-radius: 10px;
+}
+
+#list {
+	display: flex;
+	width: 92%;
+	gap: 12px;
+	text-align: center;
+	justify-content: center;
+}
+
+.small-images {
+	width: 15%;
+	border-radius: 7px;
+}

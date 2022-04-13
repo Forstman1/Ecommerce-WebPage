@@ -14,24 +14,36 @@
     text-decoration: none;
     font-size: 17px;
 	transition: 0.4s;
+	color: gray;
+}
+
+.nav {
+	margin-top: 10px;
 }
 
 .nav:hover {
 	border-bottom: 4px solid orange;
+	color: black;
 }
 
 .active {
 	float: left;
-	margin-top: 20px;
+	padding: 30px;
 }
 
 .right-nav {
 	float: right;
-	width: 10%;
-	margin-top: 30px;
+	width: 50px;
+	margin-top: 20px;
 }
 
 .right-navs {
 	float: right;
-	width: 5%;
+	width: 60px;
+}
+
+.right-navs:hover {
+	border: 2.8px solid orange;
+	border-radius: 35px;
+	cursor: pointer;
 }
