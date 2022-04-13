@@ -1,0 +1,37 @@
+.topnav {
+	font-family: 'Barlow', sans-serif;
+    background-color: transparent;
+    overflow: hidden;
+	margin-top: 30px;
+  }
+
+.topnav a {
+    float: left;
+	margin-left: 30px;
+    color: black;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+	transition: 0.4s;
+}
+
+.nav:hover {
+	border-bottom: 4px solid orange;
+}
+
+.active {
+	float: left;
+	margin-top: 20px;
+}
+
+.right-nav {
+	float: right;
+	width: 10%;
+	margin-top: 30px;
+}
+
+.right-navs {
+	float: right;
+	width: 5%;
+}
