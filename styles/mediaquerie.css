@@ -22,4 +22,38 @@
 		float: none;
 		text-align: center;
 	}
+	#info-empty {
+		font-size: 15px;
+		height: 150px;
+		width: 250px;
+	}
+	#button-checkout {
+		width: 200px;
+	}
+	#close {
+		font-size: 14px;
+	}
+	#closed {
+		font-size: 14px;
+	}
+	#info {
+		height: 240px;
+		width: 280px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	#info-empty {
+		position: absolute;
+		right: 10px;
+		font-size: 15px;
+		height: 150px;
+		width: 250px;
+	}
+	#info {
+		position: absolute;
+		right: 10px;
+		height: 240px;
+		width: 280px;
+	}
 }

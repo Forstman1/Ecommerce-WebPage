@@ -63,13 +63,6 @@ body {
 #cart {
 	cursor: pointer;
 }
-#info {
-	display: none;
-	float: right;
-	border-radius: 10px;
-	text-align: center;
-	font-family: 'Montserrat', sans-serif;
-}
 
 #image-cart {
 	width: 15%;
@@ -125,9 +118,22 @@ body {
 }
 
 #info-empty {
+	position: relative;
 	display: none;
 	float: right;
 	border-radius: 10px;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
+	height: 130px;
+	width: 300px;
+}
+
+#info {
+	display: none;
+	float: right;
+	border-radius: 10px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	height: 250px;
+	width: 310px;
 }

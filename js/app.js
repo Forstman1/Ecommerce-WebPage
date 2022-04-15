@@ -17,6 +17,7 @@ const cart_infor_emp = document.getElementById("info-empty")
 const closed = document.getElementById("close");
 const closedd = document.getElementById("closed");
 
+
 increment.addEventListener('click', function (){
 	i++;
 	selector.innerHTML = i;
@@ -49,17 +50,12 @@ cart.addEventListener('click', function(){
 	if (count == 0)
 	{
 		cart_infor_emp.style.backgroundColor = "#eaeaea";
-		cart_infor_emp.style.height = "130px";
-		cart_infor_emp.style.width = "300px";
 		cart_infor_emp.style.display = "inline";
 		closed = document.getElementById("close");
-		
 	}
 	else
 	{
 		cart_infor.style.backgroundColor = "#eaeaea";
-		cart_infor.style.height = "250px";
-		cart_infor.style.width = "310px";
 		price = price_initial * count;
 		cart_infor.style.display = "inline";
 		pricing.textContent = "$" + price;
