@@ -26,10 +26,12 @@
 			<a class="nav" href="#About">About</a>
 			<a class="nav" href="#Contact">Contact</a>
 			<img class="right-navs" src="images/image-avatar.png" alt="avatar">
-			<div class="right-nav"><img src="images/icon-cart.svg" alt="cart"></div>
+			<div class="right-nav"><div id="cart-notif"></div><img id="cart" src="images/icon-cart.svg" alt="cart"></div>
 		</div>
 	</header>
 	<hr>
+	<div id="info-empty"><p style='display: inline;'>CART</p><div id='close'>X</div><hr><p>EMPTY CART</p><button id='button-checkout'>CHECKOUT</button></div>
+	<div id="info"><p style='display: inline;'>CART</p><div id='closed'>X</div><hr><div><img id='image-cart' src='images/image-product-1-thumbnail.jpg' alt='product'><p id="counts">Fall Limited Edition Sneakers x </p></div><p id="pricing" style='font-size: 20px; font-weight: 900'></p><button id='button-checkout'>CHECKOUT</button></div>
 	<div class="big-container">
 		<div class="container1">
 			<img id="first-image" src="images/image-product-1.jpg" alt="product">
@@ -47,20 +49,19 @@
 				durable rubber outer sole, they’ll<br> withstand everything the weather can offer.</div>
 			<div id="price">$125.00</div><div id="discount">50%</div>
 			<div id="old-price">$250.00</div>
+			<div id="lower-box">
+				<div id="selector">
+					<div id="left" class="sides">-</div>
+					<div id="middle">0</div>
+					<div id="right" class="sides">+</div>
+				</div>
+				<div><button id="button">🛒 Add To Cart</button></div>
+			</div>
 		</div>
 	</div>
 
-	<!-- Sneaker Company
-
-
-  $125.00
-  50%
-  $250.00
-
-  0
-  Add to cart -->
-
 	</div>
+	<script src="js/app.js"></script>
 </body>
 
 </html>

@@ -51,3 +51,83 @@ body {
 	border-radius: 35px;
 	cursor: pointer;
 }
+
+#cart-notif {
+	color: white;
+	width: 19px;
+	height: 15px;
+	text-align: center;
+	border-radius: 15px;
+}
+
+#cart {
+	cursor: pointer;
+}
+#info {
+	display: none;
+	float: right;
+	border-radius: 10px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#image-cart {
+	width: 15%;
+	border-radius: 8px;
+}
+
+#button-checkout {
+	cursor: pointer;
+	background-color: hsl(26, 100%, 55%);
+	text-decoration: none;
+	border: none;
+	color: white;
+	border-radius: 5px;
+	width: 250px;
+	height: 40px;
+	font-size: 20px;
+}
+
+#button-checkout:hover {
+	background-color: #ffba00;
+	transition: 1s;
+	box-shadow: 2px 2px #ffcf4d;
+}
+
+#closed {
+	display: inline;
+	float: right;
+	background-color: hsl(26, 100%, 55%);
+	width: 5%;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+#closed:hover {
+	background-color: #ffba00;
+	transition: 1s;
+	box-shadow: 2px 2px #ffcf4d;
+}
+
+#close {
+	display: inline;
+	float: right;
+	background-color: hsl(26, 100%, 55%);
+	width: 5%;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+#close:hover {
+	background-color: #ffba00;
+	transition: 1s;
+	box-shadow: 2px 2px #ffcf4d;
+}
+
+#info-empty {
+	display: none;
+	float: right;
+	border-radius: 10px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}

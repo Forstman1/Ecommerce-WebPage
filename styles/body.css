@@ -39,12 +39,15 @@
 
 #Company-title {
 	color: orange;
+	width: 100%;
 	font-size: 17px;
 	font-weight: bold;
-	font-family: 'Montserrat', sans-serif;}
+	font-family: 'Montserrat', sans-serif;
+}
 
 #product-title {
 	color: #000030;
+	width: 100%;
 	padding: 18px;
 	padding-left: 0px;
 	font-size: 40px;
@@ -53,6 +56,7 @@
 
 #description {
 	color: gray;
+	width: 100%;
 }
 
 #price {
@@ -82,5 +86,79 @@
 	font-size: 14px;
 	text-decoration-line: line-through;
 	text-decoration-color: gray;
+}
 
+#lower-box {
+	display: flex;
+	gap: 30px;
+	margin-top: 60px;
+	width: 100%;
+	height: 100px;
+}
+
+#selector {
+	display: flex;
+}
+.sides {
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	background-color: #f7f7f7;
+	color: #ffba00;
+	font-size: 35px;
+	cursor: pointer;
+	border-radius: 6px;
+}
+
+#middle {
+	text-align: center;
+	width: 80px;
+	height: 50px;
+	background-color: #f7f7f7;
+	font-size: 35px;
+	cursor: pointer;
+}
+
+#button {
+	border-radius: 6px;
+	text-decoration: none;
+	background-color: hsl(26, 100%, 55%);
+	color: white;
+	font-size: 22px;
+	border: none;
+	width: 300px;
+	height: 50px;
+	cursor: pointer;
+	box-shadow: 0.5px 0.5px #ffcf4d;
+}
+
+#button:hover {
+	transition: 1s;
+	background-color: #ffba00;
+	box-shadow: 3px 3px #ffcf4d;
+}
+
+#left {
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+#right {
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+#left:hover {
+	transition: 0.5s;
+	background-color: #eaeaea;
+}
+
+#right:hover {
+	transition: 0.5s;
+	background-color: #eaeaea;
+}
+
+#middle:hover {
+	transition: 0.5s;
+	background-color: #eaeaea;
 }
