@@ -1,0 +1,25 @@
+@media screen and (max-width: 1000px) {
+	.big-container {
+		display: grid;
+		text-align: center;
+		justify-items: center;
+	}
+	.container1 {
+		height: 300px;
+		width: 400px;
+	}
+	.container2 {
+		width: 400px;
+	}
+	#lower-box {
+		display: grid;
+		justify-items: center;
+	}
+	.topnav a {
+		display: none;
+	}
+	.active {
+		float: none;
+		text-align: center;
+	}
+}

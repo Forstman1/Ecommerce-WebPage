@@ -1,9 +1,10 @@
 .big-container {
 	display: flex;
-	justify-content: center;
 	gap: 30px;
 	margin-top: 7%;
 	font-family: 'Montserrat', sans-serif;
+	justify-content: center;
+ 	align-content: center;
 }
 
 .container1 {
